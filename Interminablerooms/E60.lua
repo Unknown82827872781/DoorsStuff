@@ -1,3 +1,5 @@
+while true do
+wait(170)
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
 
@@ -61,3 +63,4 @@ local E60 = Spawner.createEntity({
 
 -- Run the created entity
 Spawner.runEntity(E60)
+end
